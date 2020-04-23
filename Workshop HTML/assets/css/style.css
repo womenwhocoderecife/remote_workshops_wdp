@@ -38,11 +38,15 @@ html {
 
 /* ARTICLE CONTAINER  */
 .article-container{
-    flex: 3 2;
+    max-width: calc(1300px - 20px);
+    flex: 2 3;
     display: flex;
     flex-direction: column;
 }
 
+.article-container-team-header{
+    flex-basis: 100%;
+}
 
 .article-container__section-title{
     text-align: left;
@@ -91,8 +95,14 @@ html {
 
 .article-container-team{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     /* width:70%; */
    
+}
+
+.article-container-team-title{
+
 }
 
 
