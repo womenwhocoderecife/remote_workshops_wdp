@@ -16,54 +16,11 @@ ul{
     box-sizing: border-box;
 }
 
-.logo{
-    border: 2px solid #000000;
-}
 
-.main-about{
-    width: 100%;
-    margin: 0 auto;   
-}
-
-.main-about-content{
-    display: flex;
-    background: rgba(184, 120, 120, 0.30);
-    border: 5px solid #e92424;
-}
-
-.main-about-content-left{
-    /* width: 100%; */
-    background: rgba(196, 196, 196, 0.5);
-
-}
-
-.main-about-header{
-    border: 1px solid #000000;   
-    padding: 80px 0px 20px 0px;
-   
-}
-
-.main-about-content-left-text{
-    border: 1px solid #000000;  
-    padding: 80px 0px 20px 0px;
-   
-}
+html {
+    font-family: 'Open Sans', sans-serif;
+   }
 
 
-.main-about-content-right{
-    background: rgba(0, 122, 124, 0.5);
-    border: 1px solid #000000;  
-    display: flex;
-    /* width: 100%; */
-}
-
-.main-about-content-botton{
-    display:block;
-}
-
-.main_footer{
-    border: 2px solid #000000;
-    padding: 20px 0px 20px 0px;
-
-}
+ 
 
