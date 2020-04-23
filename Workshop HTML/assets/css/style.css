@@ -26,7 +26,7 @@ html {
 
 .main-container{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     max-width: 100%;
 }   
@@ -86,12 +86,15 @@ html {
   margin:10px;
 }
 
+/* Scrool Team*/
 
-.team{
-    width:70%;
-    background-color: black;
-    min-width:375px;
+
+.article-container-team{
+    display: flex;
+    /* width:70%; */
+   
 }
+
 
 
 
