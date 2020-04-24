@@ -34,7 +34,8 @@ html {
 }
 
 .main-header-logo-container{
-   margin-left: 50px;
+   margin-left: 22px;
+   margin-bottom: 50px;
 }
 
 /* ARTICLE CONTAINER  */
@@ -84,9 +85,31 @@ html {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    margin-top: 68px;
+    justify-content: space-between;
 
    
 }
+
+.article-container-team section{
+    opacity: 0.7;
+    margin-bottom: 30px;
+    text-align: center;
+    flex-basis: calc(33% - 5px);
+}
+
+.article-container-team section p {
+   margin-top:15px;
+   margin-bottom: 10px;
+}
+
+
+.article-container-team section span a {
+    color: #A1AEB7;
+    padding: 5px;
+    margin-top:20px;
+}
+
 
 /* FOOTER */
 .main-footer{
