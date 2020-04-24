@@ -4,7 +4,6 @@ body, h1, h2, h3, ul,li,p{
 }
 
 img {
-    display: block;
     max-width: 100%;
 }
 
@@ -21,12 +20,10 @@ html {
     font-family: 'Open Sans', sans-serif;
    }
 
-
 /* CONTAINER PRINCIPAL */   
 
 .main-container{
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     max-width: 100%;
 }   
@@ -36,10 +33,14 @@ html {
     display: flex;  
 }
 
+.main-header-logo-container{
+   margin-left: 50px;
+}
+
 /* ARTICLE CONTAINER  */
 .article-container{
-    /* flex-basis: 574px; */
-    flex: 2 4;
+    flex-basis: 574px;
+    /* flex: 2 4; */
     display: flex;
     flex-direction: column;
 }
@@ -52,12 +53,10 @@ html {
     text-align: left;
     line-height: 54px;
     font-weight: normal;
-    margin-left: 50px;
+    margin-left: 60px;
     color: #A1AEB7;
     font-size:2.5em;
 }
-
-
 
 .article-container__section-subtitle h3{
     text-align: left;
@@ -65,7 +64,7 @@ html {
     font-weight: bold;
     font-size: 1.3em;
     color: #A1AEB7;
-    margin-left:50px;
+    margin-left:60px;
     text-transform: uppercase;
 }
 
@@ -75,22 +74,19 @@ html {
     color: #A1AEB7;
     font-weight: normal;
     line-height: 1.5em;
-    margin-left:50px;
+    margin-left:60px;
 
 }
 
 /* Scrool Team*/
-
-
 .article-container-team{
-    /* flex-basis: calc(100% - 574px); */
+    flex-basis: calc(100% - 574px);
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
 
    
 }
-
 
 /* FOOTER */
 .main-footer{
