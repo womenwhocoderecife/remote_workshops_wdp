@@ -1,6 +1,8 @@
 body, h1, h2, h3, ul,li,p{
     margin: 0px;
     padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    color: #A1AEB7;
 }
 
 img {
@@ -35,7 +37,7 @@ html {
 
 .main-header-logo-container{
    margin-left: 22px;
-   margin-bottom: 50px;
+   margin-bottom: 80px;
 }
 
 /* ARTICLE CONTAINER  */
@@ -48,6 +50,11 @@ html {
 
 .article-container-team-header{
     flex-basis: 100%;
+    /* margin: 30px 0; */
+    padding: 30px 0;
+    color:#A1AEB7;
+    font-family: "Open Sans", sans-serif;
+    
 }
 
 .article-container__section-title{
@@ -76,6 +83,7 @@ html {
     font-weight: normal;
     line-height: 1.5em;
     margin-left:60px;
+    
 
 }
 
@@ -125,6 +133,13 @@ html {
   flex: 1;
   margin:10px;
 }
+
+
+
+/* Mobile*/
+
+
+
 
 
 
