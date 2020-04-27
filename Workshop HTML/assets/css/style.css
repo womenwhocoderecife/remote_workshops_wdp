@@ -42,20 +42,14 @@ html {
 
 /* ARTICLE CONTAINER  */
 .article-container{
+    /* max-width: 1200px; */
     flex-basis: 574px;
     /* flex: 2 4; */
     display: flex;
     flex-direction: column;
 }
 
-.article-container-team-header{
-    flex-basis: 100%;
-    /* margin: 30px 0; */
-    padding: 30px 0;
-    color:#A1AEB7;
-    font-family: "Open Sans", sans-serif;
-    
-}
+
 
 .article-container__section-title{
     text-align: left;
@@ -83,40 +77,100 @@ html {
     font-weight: normal;
     line-height: 1.5em;
     margin-left:60px;
-    
-
 }
+
+
 
 /* Scrool Team*/
+
+
 .article-container-team{
-    flex-basis: calc(100% - 574px);
+    width: calc(100% - 574px);
+    justify-content:flex-end;
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
     margin-top: 68px;
-    justify-content: space-between;
-
-   
 }
 
-.article-container-team section{
-    opacity: 0.7;
+.article-container-team-image{
+    /* width: 120px;
+    height: 100px; */
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.image-scroll{
+    max-height:100%;
+	max-width: 100%;
+}
+
+
+.article-container-team-header{
+    flex-basis: 100%;
+    margin: 30px 0;
+    padding: 5px 0;
+    color:#A1AEB7;
+    font-family: "Open Sans", sans-serif; 
+ }
+
+/* .article-container-team section {
     margin-bottom: 30px;
     text-align: center;
-    flex-basis: calc(33% - 5px);
+    display: inline-block;
+   
+} */
+
+.article-container-team-lista{
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap; 
+    padding-bottom: 30px;
 }
 
-.article-container-team section p {
+.article-container-team-lista::-webkit-scrollbar-thumb{
+    background: #A1AEB7;
+    border-left: 4px solid #A1AEB7;
+    border-right: 4px solid #A1AEB7;
+}
+
+.article-container-team-lista::-webkit-scrollbar{
+    width: 18px;
+}
+
+.article-container-team-lista::-webkit-scrollbar-track{
+    background: #faf6ed;
+}
+
+.article-container-team img{
+    opacity: 0.4;
+}
+
+.article-container-team li{
+    cursor:pointer;
+}
+
+.article-container-team img:hover{
+    opacity:1;
+}
+
+.article-container-team-lista p {
    margin-top:15px;
    margin-bottom: 10px;
 }
 
 
-.article-container-team section span a {
+.article-container-team-lista span a {
     color: #A1AEB7;
     padding: 5px;
     margin-top:20px;
 }
+
+
+
+
+
+
 
 
 /* FOOTER */
@@ -137,6 +191,8 @@ html {
 
 
 /* Mobile*/
+
+
 
 
 
