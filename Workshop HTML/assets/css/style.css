@@ -2,7 +2,8 @@ body,ul,li,p{
     margin: 0px;
     padding: 0px;
     font-family: "Open Sans", sans-serif;
-    color: #A1AEB7;
+    /* color: #A1AEB7; */
+    background: #F5F5F5;
 }
 
 :root{
@@ -36,7 +37,7 @@ html {
     flex-wrap: wrap;
     max-width: 100%;
     margin: 0 auto;
-    background: #F5F5F5;
+
 }   
 
 .main-header{
@@ -118,7 +119,7 @@ html {
 
 .article-container-team-header{
     flex-basis: 100%;
-    margin: 30px 0;
+    /* margin: 30px 0; */
     padding: 5px 0;
     /* color:#A1AEB7; */
     color: var(--color-header);
@@ -190,9 +191,16 @@ html {
 }
 
 @media (max-width:480px){
+
+     .main-container{
+        margin: 0 auto;
+        width: 100%;
+    } 
     .main-header-logo-container{
         flex:1;
-        text-align: center;
+        margin: 0 auto;
+        max-width: 136px;
+      
     }
 
     .article-container__section-title {
