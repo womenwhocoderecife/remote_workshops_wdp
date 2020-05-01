@@ -87,6 +87,7 @@ html {
     text-align: left;
     color: #A1AEB7;
     font-weight: normal;
+    text-align: justify-all;
     line-height: 1.5em;
     margin-left:60px;
     color:var(--color-paragraph);
@@ -144,11 +145,12 @@ html {
 }
 
 .article-container-team-lista::-webkit-scrollbar-track{
-    background: #faf6ed;
+    /* background: #faf6ed; */
+    background:rgba(0, 122, 124, 0.1);
 }
 
 .article-container-team img{
-    opacity: 0.4;
+    /* opacity: 0.4; */
 }
 
 .article-container-team li{
@@ -156,7 +158,7 @@ html {
 }
 
 .article-container-team img:hover{
-    opacity:1;
+    opacity:0.6;
 }
 
 .article-container-team-lista p {
