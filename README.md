@@ -7,7 +7,7 @@ Remote workshops - tracks: front-end/back-end
 
 ![Design preview](./design/prototipo.png)
 
-![Link Figma](https://www.figma.com/file/rhtNHUcJNDXD5V23XXi3M9/Site-Workshop-WDP) 
+[Prototype Link Figma](https://www.figma.com/file/rhtNHUcJNDXD5V23XXi3M9/Site-Workshop-WDP)
 
 
 [WWcode Recife] This website will developed durant the HTML and CSS Workshops
